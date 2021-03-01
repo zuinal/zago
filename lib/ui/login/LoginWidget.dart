@@ -132,7 +132,6 @@ class LoginWidget extends StatelessWidget {
                 bottom: null,
                 width: 140.0,
                 height: 30.0,
-                // ignore: deprecated_member_use
                 child: RaisedButton(
                   onPressed: () {
                     Navigator.pushReplacementNamed(context, '/RegisterWidget');
@@ -140,7 +139,7 @@ class LoginWidget extends StatelessWidget {
                   color: Colors.green,
                   shape: new RoundedRectangleBorder(
                       borderRadius: new BorderRadius.circular(10.0)),
-                  child: Text('Register ?',
+                  child: Text('Register',
                       style: TextStyle(
                         fontSize: 18,
                         color: Colors.white,
