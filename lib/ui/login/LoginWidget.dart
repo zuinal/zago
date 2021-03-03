@@ -75,7 +75,7 @@ class LoginWidget extends StatelessWidget {
                   child: TextFormField(
                     decoration: InputDecoration(
                         border: InputBorder.none,
-                        hintText: 'masukan email kamu',
+                        labelText: 'masukan email kamu',
                         icon: Icon(Icons.email)),
                   )),
               Positioned(
