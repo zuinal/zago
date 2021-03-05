@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 extension HexColor on Color {
   static Color fromHex(String hexString) {
@@ -15,4 +16,5 @@ class ColorPalette {
   final Color whiteOpacity = HexColor.fromHex("FFFEFE").withOpacity(0.8);
   final Color grey = HexColor.fromHex("E5E5E5");
   final Color redOpacity = HexColor.fromHex("FF003D").withOpacity(0.8);
+  final Color textBlackHeader = Colors.black.withOpacity(0.7);
 }
