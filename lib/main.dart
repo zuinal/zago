@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Zago App',
-        theme: ThemeData(primarySwatch: Colors.blue),
+        theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Roboto'),
         debugShowCheckedModeBanner: false,
         initialRoute: '/SplashWidget',
         routes: {

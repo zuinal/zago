@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:app/helpers/ColorPalette.dart';
-import 'package:app/ui/menu_utama/Generated/Generated Menu Button/MenuButton.dart';
+import 'package:app/ui/menu_utama/Generated/generated-menu-button/MenuButton.dart';
 
 class RectangleMainMenu extends StatelessWidget {
   @override
@@ -13,13 +13,13 @@ class RectangleMainMenu extends StatelessWidget {
         color: ColorPalette().grey,
       ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Text("Menu Utama",
               style: TextStyle(
                   color: ColorPalette().textBlackHeader,
                   fontFamily: 'Roboto',
-                  fontSize: 13,
+                  fontSize: 15,
                   fontWeight: FontWeight.w500)),
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
             MenuButton(null, "assets/images/icon-fitrah.png", "Zakat Fitrah"),
